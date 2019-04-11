@@ -11,6 +11,7 @@ const http = require('http');
 //http.createServer returns a SERVER. so you can set it to constant because you only need to create the server once. 
 const server = http.createServer((req,res)=>{
     console.log(req);
+    process.exit();//process.exist() exits the nodejs event loop and shuts down the app. typically you wouldn't call this method since you want your server running. 
 })
 
 server.listen(3000);
