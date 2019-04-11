@@ -1,0 +1,22 @@
+{
+  "name": "nodejscomplete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DrPeyman86/NodeJsComplete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrPeyman86/NodeJsComplete/issues"
+  },
+  "homepage": "https://github.com/DrPeyman86/NodeJsComplete#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
