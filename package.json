@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/DrPeyman86/NodeJsComplete#readme",
   "dependencies": {
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6"
   }
 }
